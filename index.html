@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emmett Schoenhals — Data Analyst, Sports Analytics</title>
+<meta name="description" content="Emmett Schoenhals — data analyst pivoting BI and pipeline engineering toward professional sports. MS Business Analytics, Wake Forest University.">
+<meta name="theme-color" content="#1f4a38">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-nav">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <span class="brand-mark">ES</span>
+      Schoenhals
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#track">About</a></li>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#market">Market</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#resume">Résumé</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+<a id="top"></a>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Data Analyst · Sports Analytics</span>
+      <h1 class="hero-name">Emmett<br><em>Schoenhals</em></h1>
+      <p class="lede hero-tagline">I'm working on a Master of Science in Business Analytics at Wake Forest, concentrating in Sports Analytics. Before that, a couple of internships had me building the pipelines behind other people's dashboards, turning messy finance and inventory data into something teams could actually work off of. Now I'm pointing that same mix of analysis and engineering at sports instead.</p>
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="#projects">See the work</a>
+        <a class="btn btn--ghost" href="assets/resume/Schoenhals_Emmett_Resume.pdf" download>Download résumé</a>
+        <a class="btn btn--ghost" href="#intro">Watch the intro</a>
+      </div>
+    </div>
+    <figure class="hero-photo reveal">
+      <img src="assets/img/headshot.jpg" alt="Portrait of Emmett Schoenhals" width="900" height="1125">
+      <figcaption class="hero-photo-cap"><span>Winston-Salem, NC</span><span>2026</span></figcaption>
+    </figure>
+  </div>
+  <div class="wrap">
+    <div class="scorecard-strip reveal">
+      <div><span class="k">Role</span><span class="v">Data Analyst</span></div>
+      <div><span class="k">Class</span><span class="v">MSBA '27</span></div>
+      <div><span class="k">Concentration</span><span class="v">Sports Analytics</span></div>
+      <div><span class="k">Base</span><span class="v">Winston-Salem, NC</span></div>
+      <div><span class="k">Contact</span><span class="v"><a href="mailto:schoee26@wfu.edu">schoee26@wfu.edu</a></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRACK & NARRATIVE (Hybrid Track) ============ -->
+<section class="section" id="track">
+  <div class="wrap">
+    <span class="eyebrow">About</span>
+    <h2>Same skill set.<br>A new subject.</h2>
+    <p class="lede">A couple of years of internships behind me, now pointed at sports, in the classroom and outside of it.</p>
+
+    <div class="report-grid">
+      <div class="reveal">
+        <p>Data work has mostly been my day job so far: cleaning up messy spreadsheets, building the pipeline nobody wanted to build, watching a dashboard actually change how a team made a call. Sports is where I want to point that next, and Wake Forest's Sports Analytics program is where I'm doing that formally. Outside of class I keep building things nobody assigned me, which is really the same instinct with a new subject.</p>
+      </div>
+      <div class="reveal">
+        <table class="map-table">
+          <thead><tr><th>What I've built</th><th>Where it's headed</th></tr></thead>
+          <tbody>
+            <tr><td>Pipelines and dashboards people relied on daily</td><td>Dashboards &amp; valuation models for sports</td></tr>
+            <tr><td>Data migration &amp; API-driven enrichment</td><td>Reconciling wearable &amp; tracking data</td></tr>
+            <tr><td>Automated pipelines replacing manual reporting</td><td>Scouting &amp; valuation pipelines that scale</td></tr>
+            <tr><td>Teaching people who aren't analysts to use the dashboards themselves</td><td>Making analytics make sense to coaches, not just analysts</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VIDEO INTRO (skeleton) ============ -->
+<section class="section" id="intro">
+  <div class="wrap">
+    <span class="eyebrow">Introduction</span>
+    <h2>More about me:</h2>
+    <p class="lede">Who I am, why sports analytics, and where I'm headed.</p>
+
+    <div class="video-frame reveal" id="introFrame">
+      <video id="introVideo" preload="metadata" poster="assets/video/poster.jpg">
+        <source src="assets/video/intro.mp4" type="video/mp4">
+      </video>
+      <button class="video-play" id="introPlayBtn" type="button" aria-label="Play introduction video">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 4l14 8-14 8V4z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMMERCIAL AWARENESS ============ -->
+<section class="section section--dark" id="market">
+  <div class="wrap">
+    <span class="eyebrow">The market</span>
+    <h2>Sports teams run on the same data stack as everyone else now.</h2>
+    <p class="lede">What I keep in mind about the industry I'm building toward.</p>
+    <div class="market-grid">
+      <article class="market-card reveal">
+        <span class="num">The Shift</span>
+        <h3>Analytics is infrastructure, not a department.</h3>
+        <p>The same instincts that catch a bad number in a spreadsheet catch value in a trade. Teams are hiring for that directly now, not just for people who grew up around the sport.</p>
+      </article>
+      <article class="market-card reveal">
+        <span class="num">The Data Layer</span>
+        <h3>The sport creates the data. Tracking creates the edge.</h3>
+        <p>Every stat you've heard of, strokes gained, EPA, whatever comes next, only works because someone did the unglamorous work of building a clean pipeline underneath it first. That's the part I already know how to do.</p>
+      </article>
+      <article class="market-card reveal">
+        <span class="num">The Translation</span>
+        <h3>A model nobody trusts might as well not exist.</h3>
+        <p>Coaches and scouts didn't get into sports to read regression output. Making a number mean something to someone who isn't an analyst is half the job, maybe more of it than the modeling itself.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <span class="eyebrow">Work evidence</span>
+    <h2>Four built.</h2>
+    <p class="lede">Solo builds and one class project. What each one is, what I did, what it proves.</p>
+
+    <!-- Project: TeeBox'd -->
+    <article class="project reveal">
+      <div class="project-head">
+        <div class="project-title-group">
+          <h3 class="project-title">TeeBox'd</h3>
+          <span class="project-tag">Golf</span>
+        </div>
+        <p class="project-thesis">Letterboxd, for golf courses.</p>
+      </div>
+      <div class="project-body">
+        <div class="project-desc">
+          <p>A local-first web app for discovering golf courses and logging rounds: a satellite map, hole-by-hole scorecards, a five-ball rating system, and a real USGA handicap engine, wrapped up Spotify-style at year end.</p>
+          <p><strong>Context:</strong> I wanted a clean way to track rounds and courses, the way film and album trackers already do for movies and music. <strong>Role:</strong> sole architect, backend, and frontend, from the geospatial data pipeline to the handicap engine to the UI.</p>
+        </div>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="k">Tools</span>
+            <ul class="tools-list">
+              <li>FastAPI</li><li>PostgreSQL + PostGIS</li><li>SQLAlchemy 2.0</li><li>Alembic</li><li>Jinja2</li><li>Leaflet</li><li>Vanilla JS</li>
+            </ul>
+          </div>
+          <div class="project-meta-row">
+            <span class="k">Outcomes</span>
+            <ul class="outcomes">
+              <li>16,800+ US courses geocoded and searchable on a live map</li>
+              <li>WHS handicap index to spec, unit-tested against hand-computed cases</li>
+              <li>A rules-based taste engine that explains its own reasoning</li>
+              <li>No build step, by design. Fewer moving parts to maintain solo.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="proof">
+        <p class="proof-caption">Proof — running locally, screenshots below</p>
+        <div class="stat-tiles">
+          <div class="stat-tile"><span class="v">16.8K</span><span class="k">US courses indexed</span></div>
+          <div class="stat-tile"><span class="v">Top 100</span><span class="k">Golf Digest courses tagged</span></div>
+          <div class="stat-tile"><span class="v">WHS</span><span class="k">USGA handicap engine</span></div>
+          <div class="stat-tile"><span class="v">Satellite</span><span class="k">Live course map</span></div>
+        </div>
+        <div class="shot-grid">
+          <a href="assets/img/proof/teeboxd/explore-map.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/teeboxd/explore-map.jpg" alt="The Explore page: a satellite map of courses near Winston-Salem, NC with a course list alongside it" loading="lazy"></span>
+            <span class="shot-cap">Explore — satellite map and course list</span>
+          </a>
+          <a href="assets/img/proof/teeboxd/course-detail.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/teeboxd/course-detail.jpg" alt="Old Town Club's course page, Golf Digest 100 rank 39, with a satellite view and a full hole-by-hole scorecard across five tee sets" loading="lazy"></span>
+            <span class="shot-cap">A course page, tees and all</span>
+          </a>
+          <a href="assets/img/proof/teeboxd/profile-walt.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/teeboxd/profile-walt.jpg" alt="A seeded demo profile, Walt Dunne, showing 121 logged rounds across 27 courses, taste tags, favorite courses, and a rating distribution" loading="lazy"></span>
+            <span class="shot-cap">A lived-in profile, seeded for the demo</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project: Golf Game -->
+    <article class="project reveal">
+      <div class="project-head">
+        <div class="project-title-group">
+          <h3 class="project-title">Golf, From Scratch</h3>
+          <span class="project-tag">Golf</span>
+        </div>
+        <p class="project-thesis">A physics-first Wii Golf, built from the ground up.</p>
+      </div>
+      <div class="project-body">
+        <div class="project-desc">
+          <p>A from-scratch golf simulator: Wii Golf-style controls over a real physics engine. Wind drifts hole to hole and locks in the instant you swing. Strike point and spin shape the flight. Greens have real slope, and a putt and an approach shot roll across them the same way.</p>
+          <p><strong>Context:</strong> two things I know well, competitive golf and simulation logic. <strong>Role:</strong> solo developer. Swing and flight physics, course geometry for Augusta National, St Andrews, Pinehurst No. 2 and four more, the CPU opponent, and full handicap scoring on top.</p>
+        </div>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="k">Tools</span>
+            <ul class="tools-list">
+              <li>Python</li><li>pygame</li><li>Custom 2D/3D renderer</li><li>Procedural terrain gen</li><li>Headless smoke tests</li>
+            </ul>
+          </div>
+          <div class="project-meta-row">
+            <span class="k">Outcomes</span>
+            <ul class="outcomes">
+              <li>8 full 18-hole courses, 5 authored hole-for-hole from real cards</li>
+              <li>A CPU that plays through the same swing interface I do, so a match it wins, it actually won</li>
+              <li>Full WHS handicap scoring on real round data</li>
+              <li>Automated tests that play full rounds and check the physics after every change</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="proof">
+        <p class="proof-caption">Play it</p>
+        <p class="demo-intro">Give it a go on hole 12 at Augusta, Golden Bell, yourself.</p>
+        <ul class="legend-list">
+          <li><b>&larr; &rarr;</b> aim</li>
+          <li><b>SPACE</b> swing, charge putt</li>
+          <li><b>W A S D</b> strike point</li>
+          <li><b>V</b> change view</li>
+          <li><b>ESC</b> menu</li>
+        </ul>
+        <div class="demo-frame reveal">
+          <div class="demo-frame-inner">
+            <iframe src="assets/golf-demo/index.html" title="Playable demo, Augusta National hole 12" loading="lazy" allow="autoplay"></iframe>
+          </div>
+        </div>
+        <p class="demo-caption">
+          <span>Click into the frame to start. Needs a keyboard, best on a laptop or desktop.</span>
+          <a href="assets/golf-demo/index.html" target="_blank" rel="noopener">Open full-size ↗</a>
+        </p>
+      </div>
+    </article>
+
+    <!-- Project: Madden Franchise Companion -->
+    <article class="project reveal">
+      <div class="project-head">
+        <div class="project-title-group">
+          <h3 class="project-title">Franchise Companion</h3>
+          <span class="project-tag">Football</span>
+        </div>
+        <p class="project-thesis">It's not what happened. It's what the front office believed.</p>
+      </div>
+      <div class="project-body">
+        <div class="project-desc">
+          <p>A companion app for a solo, offline Madden NFL 27 franchise. It records what the in-game news ticker can't: what the front office believed, and what it chose. Every scouting grade and trade call becomes a timestamped "take," graded later against what actually happened.</p>
+          <p><strong>Context:</strong> Madden tells you what happened. I wanted to know if my own front-office calls were any good. <strong>Role:</strong> sole architect. The event, take, and decision data model, a single-write engine layer, a real NFL roster import, and AI narrative writing that reads the takes and decisions, not just the box score.</p>
+        </div>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="k">Tools</span>
+            <ul class="tools-list">
+              <li>Next.js (App Router)</li><li>TypeScript</li><li>SQLite + Drizzle ORM</li><li>Tailwind (token-only)</li><li>Anthropic API</li><li>nflverse-data</li>
+            </ul>
+          </div>
+          <div class="project-meta-row">
+            <span class="k">Outcomes</span>
+            <ul class="outcomes">
+              <li>A three-part model, event, take, decision, that turns front-office reasoning into real data</li>
+              <li>The Ledger grades scouting and valuation hit-rate against outcomes</li>
+              <li>Real rosters and headshots for all 32 teams, no scraping</li>
+            </ul>
+          </div>
+        </div>
+        <div class="llm-highlight">
+          <span class="eyebrow">LLM pipeline</span>
+          <h4>The narrative engine, in more detail</h4>
+          <p>The AI piece isn't a chatbot bolted onto the app, it's a small, deliberate pipeline. A handful of writable "voices," plain markdown files, not code, set the tone; everything around them is built to be cheap, controllable, and honest about what it doesn't know.</p>
+          <ul>
+            <li><strong>Nothing runs automatically.</strong> Every story is one manual click, a cost decision and a control decision, not a background job.</li>
+            <li><strong>A significance score runs first, for free.</strong> A deterministic function weighs what actually happened before anything touches the API, so a quiet week costs nothing to find out it was quiet.</li>
+            <li><strong>The prompt is split for caching.</strong> Stable franchise and roster context is cached separately from each week's fresh briefing, so repeat runs don't re-pay for what hasn't changed.</li>
+            <li><strong>Every fact has to trace back to the data.</strong> No invented quotes, scores, or players, the model only gets to write about what was actually logged.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="proof">
+        <p class="proof-caption">Proof — one save file, early in its first season. Screens below are from that save: a real roster, a division win, and the takes and decisions logged around it.</p>
+        <div class="stat-tiles">
+          <div class="stat-tile"><span class="v">32</span><span class="k">NFL teams on real rosters</span></div>
+          <div class="stat-tile"><span class="v">14</span><span class="k">Build specs, one slice at a time</span></div>
+          <div class="stat-tile"><span class="v">Live</span><span class="k">AI-generated front-office narrative</span></div>
+        </div>
+        <div class="shot-grid">
+          <a href="assets/img/proof/madden/significance-score.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/madden/significance-score.jpg" alt="The Desk's write panel after a division win over Seattle, showing a 0.77 significance score with its factors (two takes resolved, one-possession finish, division game) and the assembled prompt broken into cached and variable blocks" loading="lazy"></span>
+            <span class="shot-cap">The significance score and assembled prompt, computed for free before any API call</span>
+          </a>
+          <a href="assets/img/proof/madden/squad.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/madden/squad.jpg" alt="The Squad roster with a player panel open for Marvin Harrison Jr., showing his signed contract year-by-year and overall/dev trait fields" loading="lazy"></span>
+            <span class="shot-cap">Roster and contract as one surface</span>
+          </a>
+          <a href="assets/img/proof/madden/ledger.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/madden/ledger.jpg" alt="The Ledger's calibration curve chart, plotting hit rate against stated confidence for resolved persona reads" loading="lazy"></span>
+            <span class="shot-cap">The Ledger, grading a belief against what actually happened</span>
+          </a>
+          <a href="assets/img/proof/madden/chronicle.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/madden/chronicle.jpg" alt="The Chronicle timeline for week 5, showing the game result, a recorded decision about the starting QB, and two persona-read takes graded right and wrong" loading="lazy"></span>
+            <span class="shot-cap">The Chronicle: one week, with what he chose and what he believed graded next to it</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project: Transfer Market Value -->
+    <article class="project reveal">
+      <div class="project-head">
+        <div class="project-title-group">
+          <h3 class="project-title">Transfer Market Value</h3>
+          <span class="project-tag">Soccer</span>
+        </div>
+        <p class="project-thesis">League beats box score.</p>
+      </div>
+      <div class="project-body">
+        <div class="project-desc">
+          <p>A statistics class project with two teammates: real Transfermarkt data on professional players across 20 leagues, built up over the semester into a regression model of market value.</p>
+          <p><strong>Context:</strong> a course project, not a solo build. <strong>Role:</strong> cleaned the dataset early on, then worked with the team through the descriptive stats, hypothesis testing, and the final regression model.</p>
+        </div>
+        <div class="project-meta">
+          <div class="project-meta-row">
+            <span class="k">Tools</span>
+            <ul class="tools-list">
+              <li>Excel</li><li>Regression</li><li>Hypothesis testing</li>
+            </ul>
+          </div>
+          <div class="project-meta-row">
+            <span class="k">Outcomes</span>
+            <ul class="outcomes">
+              <li>League tier moved value more than any single stat we tested</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="proof">
+        <p class="proof-caption">Proof — pulled straight from the workbook</p>
+        <div class="shot-grid">
+          <a href="assets/img/proof/market-value/regression-model.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/market-value/regression-model.jpg" alt="Excel regression output for the final 8-variable market value model, showing coefficients, p-values, and confidence intervals" loading="lazy"></span>
+            <span class="shot-cap">The final regression model</span>
+          </a>
+          <a href="assets/img/proof/market-value/data-visuals.jpg" target="_blank" rel="noopener">
+            <span class="shot-frame"><img src="assets/img/proof/market-value/data-visuals.jpg" alt="A grid of distribution and scatter charts covering player profile, playing time, performance, and market value variables" loading="lazy"></span>
+            <span class="shot-cap">The dataset, visualized</span>
+          </a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ HOBBIES ============ -->
+<section class="section" id="hobbies">
+  <div class="wrap">
+    <span class="eyebrow">Off the clock</span>
+    <h2>Elsewhere.</h2>
+    <div class="report-grid">
+      <div class="reveal">
+        <span class="hobby-label">Personal</span>
+        <ul class="hobby-list">
+          <li>Varsity golf, four years</li>
+          <li>Arizona Cardinals</li>
+          <li>Houston Rockets</li>
+          <li>Houston Astros</li>
+          <li>Rory McIlroy</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <span class="hobby-label">Industries of interest</span>
+        <ul class="hobby-list">
+          <li>American football</li>
+          <li>Basketball</li>
+          <li>Hockey</li>
+          <li>Baseball</li>
+          <li>Soccer</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESUME ============ -->
+<section class="section" id="resume">
+  <div class="wrap">
+    <span class="eyebrow">Résumé</span>
+    <h2>The résumé.</h2>
+    <p class="lede">Current as of August 2026.</p>
+    <div class="resume-single">
+      <div class="resume-embed reveal">
+        <object data="assets/resume/Schoenhals_Emmett_Resume.pdf#view=FitH" type="application/pdf" aria-label="Emmett Schoenhals résumé (PDF)">
+          <div class="resume-fallback">
+            <p>Your browser can't preview PDFs inline.</p>
+            <a class="btn btn--primary" href="assets/resume/Schoenhals_Emmett_Resume.pdf" download>Download résumé (PDF)</a>
+          </div>
+        </object>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="assets/resume/Schoenhals_Emmett_Resume.pdf" download>Download PDF</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <span class="eyebrow">Contact</span>
+        <h2 style="font-size:clamp(1.8rem,4vw,2.6rem);">Let's talk<br>sports data.</h2>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:schoee26@wfu.edu">schoee26@wfu.edu</a>
+        <a href="tel:+18326276468">832-627-6468</a>
+        <a href="https://linkedin.com/in/emmettschoenhals" target="_blank" rel="noopener">linkedin.com/in/emmettschoenhals</a>
+        <a href="assets/resume/Schoenhals_Emmett_Resume.pdf" download>Download résumé (PDF)</a>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <span>© 2026 Emmett Schoenhals</span>
+      <span>Winston-Salem, NC</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
